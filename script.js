@@ -335,12 +335,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Initialize on Load
 // ===========================
 document.addEventListener('DOMContentLoaded', () => {
-    initSliderImages();
+    // initSliderImages(); // Disabled: Images are hardcoded in HTML for stability
     renderProducts();
     updateCartUI();
 
     // Add banner backgrounds
-    addBannerBackgrounds();
+    // addBannerBackgrounds(); // Disabled: Images are hardcoded in HTML
 });
 
 // ===========================
