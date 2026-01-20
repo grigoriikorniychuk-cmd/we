@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Garden - Премиальные цветочные букеты с доставкой</title>
+    <meta name="description"
+        content="Bloom Garden - свежие цветы и авторские букеты с доставкой. Розы, пионы, тюльпаны и эксклюзивные композиции для любого случая.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Running Ticker Banner -->
+    <div class="ticker-banner">
+        <div class="ticker-track">
+            <span class="ticker-item">🚚 Доставка от 60 минут</span>
+            <span class="ticker-item">🌸 Гарантия свежести 7 дней</span>
+            <span class="ticker-item">💰 Кэшбек с заказа до 15%</span>
+            <span class="ticker-item">🎁 1000 бонусных рублей при первом заказе</span>
+            <span class="ticker-item">📸 Фото букета перед отправкой</span>
+            <span class="ticker-item">🚚 Доставка от 60 минут</span>
+            <span class="ticker-item">🌸 Гарантия свежести 7 дней</span>
+            <span class="ticker-item">💰 Кэшбек с заказа до 15%</span>
+            <span class="ticker-item">🎁 1000 бонусных рублей при первом заказе</span>
+            <span class="ticker-item">📸 Фото букета перед отправкой</span>
+        </div>
+    </div>
+
+    <!-- Utility Bar - Clean Premium Design -->
+    <div class="utility-bar">
+        <div class="container utility-content">
+            <div class="utility-left">
+                <span class="location-text">Москва</span>
+                <span class="work-hours-text">Работаем 24/7</span>
+            </div>
+            <div class="utility-right">
+                <a href="tel:+74951234567" class="phone-link-premium">+7 (495) 123-45-67</a>
+                <div class="social-icons-premium">
+                    <a href="#" class="social-icon-link" aria-label="WhatsApp">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                        </svg>
+                    </a>
+                    <a href="#" class="social-icon-link" aria-label="Telegram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.22 18.862-4.243-1.78 10.532-6.645-6.29 8.425zm.394-9.32 3.826 8.458 4.243-1.78-8.069-6.678z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header - Premium Design -->
+    <header class="main-header">
+        <div class="container header-content-premium">
+            <button class="menu-toggle-premium" id="menuToggle" aria-label="Открыть меню">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <div class="logo-premium">
+                <a href="/">
+                    <h1>Bloom Garden</h1>
+                    <p class="logo-subtitle">Цветочная студия</p>
+                </a>
+            </div>
+
+            <div class="header-actions-premium">
+                <button class="search-btn-premium" id="searchBtn" aria-label="Поиск">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <path d="m21 21-4.35-4.35" />
+                    </svg>
+                </button>
+                <a href="#" class="login-link-premium">Вход</a>
+                <a href="#" class="cart-btn-premium" aria-label="Корзина">
+                    <span class="cart-icon-wrap">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="9" cy="21" r="1" />
+                            <circle cx="20" cy="21" r="1" />
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+                        </svg>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </span>
+                    <span class="cart-price" id="cartPrice">₽</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Primary Navigation -->
+        <nav class="primary-nav" id="primaryNav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><a href="#">Букеты</a></li>
+                    <li><a href="#">Розы</a></li>
+                    <li><a href="#">Премиум</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Коллекции</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">День всех влюбленных</a></li>
+                            <li><a href="#">NEW YEAR</a></li>
+                            <li><a href="#">Магия вне Хогвартса</a></li>
+                            <li><a href="#">Осенняя коллекция</a></li>
+                            <li><a href="#">Детская коллекция</a></li>
+                            <li><a href="#">Букеты до 3000₽</a></li>
+                            <li><a href="#">Для него</a></li>
+                            <li><a href="#">Свадебная коллекция</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Повод</a>
+                        <div class="dropdown-menu dropdown-multi-column">
+                            <div class="dropdown-column">
+                                <h4>Кому</h4>
+                                <ul class="mega-list">
+                                    <li><a href="#">Маме</a></li>
+                                    <li><a href="#">Любимой</a></li>
+                                    <li><a href="#">Мужчине</a></li>
+                                    <li><a href="#">Коллеге</a></li>
+                                    <li><a href="#">Детям</a></li>
+                                    <li><a href="#">Учителю</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-column">
+                                <h4>События</h4>
+                                <ul class="mega-list">
+                                    <li><a href="#">День рождения</a></li>
+                                    <li><a href="#">Свадьба</a></li>
+                                    <li><a href="#">Рождение ребенка</a></li>
+                                    <li><a href="#">Выпускной</a></li>
+                                    <li><a href="#">Последний звонок</a></li>
+                                    <li><a href="#">Годовщина</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown-column">
+                                <h4>Праздник</h4>
+                                <ul class="mega-list">
+                                    <li><a href="#">День учителя</a></li>
+                                    <li><a href="#">14 февраля</a></li>
+                                    <li><a href="#">8 марта</a></li>
+                                    <li><a href="#">День матери</a></li>
+                                    <li><a href="#">Новый год</a></li>
+                                    <li><a href="#">23 февраля</a></li>
+                                    <li><a href="#">1 сентября</a></li>
+                                    <li><a href="#">День семьи</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#">Подарки</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Шары</a></li>
+                            <li><a href="#">Наборы</a></li>
+                            <li><a href="#">Открытки</a></li>
+                            <li><a href="#">Вазы</a></li>
+                            <li><a href="#">Свечи</a></li>
+                            <li><a href="#">Сертификаты</a></li>
+                            <li><a href="#">Текстиль</a></li>
+                            <li><a href="#">Уход за цветами</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-content">
+            <!-- Main Slider -->
+            <div class="hero-slider">
+                <div class="slider-track" id="heroSlider">
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Весенняя Коллекция</h2>
+                            <p class="slide-description">Нежные тюльпаны и пионы для создания весеннего настроения.
+                                Свежесть и аромат весны в каждом букете.</p>
+                            <a href="#" class="btn btn-primary">Выбрать букет</a>
+                        </div>
+                        <div class="slide-image" id="heroSlide1"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Скидка 20% на розы</h2>
+                            <p class="slide-description">Элегантные розы премиум-качества. Идеальный подарок для
+                                выражения чувств.</p>
+                            <a href="#" class="btn btn-primary">Смотреть каталог</a>
+                        </div>
+                        <div class="slide-image" id="heroSlide2"></div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <h2 class="slide-title">Доставка за 60 минут</h2>
+                            <p class="slide-description">Быстрая доставка свежих цветов прямо к двери. Работаем
+                                круглосуточно для вашего удобства.</p>
+                            <a href="#" class="btn btn-primary">Заказать сейчас</a>
+                        </div>
+                        <div class="slide-image" id="heroSlide3"></div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-dot active" data-slide="0"></button>
+                    <button class="slider-dot" data-slide="1"></button>
+                    <button class="slider-dot" data-slide="2"></button>
+                </div>
+            </div>
+
+            <!-- Feature Tiles -->
+            <div class="feature-tiles">
+                <a href="#" class="feature-tile" id="tile1">
+                    <div class="tile-content">
+                        <h3>Премиум букеты</h3>
+                        <p>Эксклюзивные композиции</p>
+                    </div>
+                </a>
+                <a href="#" class="feature-tile" id="tile2">
+                    <div class="tile-content">
+                        <h3>Подарочные наборы</h3>
+                        <p>Цветы + сладости</p>
+                    </div>
+                </a>
+                <a href="#" class="feature-tile" id="tile3">
+                    <div class="tile-content">
+                        <h3>Программа лояльности</h3>
+                        <p>Кэшбек до 15%</p>
+                    </div>
+                </a>
+                <a href="#" class="feature-tile" id="tile4">
+                    <div class="tile-content">
+                        <h3>Подписка на цветы</h3>
+                        <p>Свежие букеты каждую неделю</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo Banners -->
+    <section class="promo-banners">
+        <div class="container">
+            <div class="promo-grid">
+                <div class="promo-banner promo-main" id="promoBanner1">
+                    <div class="promo-content">
+                        <h2>Подарок при первом заказе</h2>
+                        <p>Получите открытку ручной работы в подарок к вашему первому букету</p>
+                        <a href="#" class="btn btn-secondary">Оформить заказ</a>
+                    </div>
+                </div>
+                <div class="promo-banner promo-small" id="promoBanner2">
+                    <div class="promo-content">
+                        <h3>Доставка в день заказа</h3>
+                        <a href="#" class="btn-link">Подробнее →</a>
+                    </div>
+                </div>
+                <div class="promo-banner promo-small" id="promoBanner3">
+                    <div class="promo-content">
+                        <h3>Свежесть гарантирована</h3>
+                        <a href="#" class="btn-link">Подробнее →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Products -->
+    <div class="container">
+        <h2 class="section-title">Популярное</h2>
+        <div class="products-grid" id="popularProducts">
+            <!-- Product cards will be generated here -->
+        </div>
+        <div class="section-footer">
+            <button class="btn btn-outline">Показать еще</button>
+        </div>
+    </div>
+    </section>
+
+    <!-- Flowers Category -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Цветы</h2>
+            <div class="products-grid" id="flowersProducts">
+                <!-- Product cards will be generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Bouquets Category -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Авторские букеты</h2>
+            <div class="products-grid" id="bouquetsProducts">
+                <!-- Product cards will be generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎁</div>
+                    <h3>Бонусы при покупке</h3>
+                    <p>Получайте до 15% кэшбэка на бонусный счет с каждой покупки</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">✓</div>
+                    <h3>Контроль качества</h3>
+                    <p>Фото букета перед отправкой и строгий контроль свежести цветов</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚚</div>
+                    <h3>Быстрая доставка</h3>
+                    <p>Доставим ваш заказ от 60 минут в любую точку города</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💝</div>
+                    <h3>Открытка в подарок</h3>
+                    <p>Бесплатная авторская открытка к каждому букету</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Вопросы-ответы</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Какие цветы вы используете в букетах?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Мы работаем только со свежими цветами от проверенных поставщиков из Голландии, Эквадора и
+                            Кении. Розы, пионы, гортензии проходят строгий контроль качества. Каждый цветок отбирается
+                            вручную нашими флористами.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Как долго стоят ваши букеты?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>При правильном уходе наши букеты сохраняют свежесть от 7 до 14 дней. К каждому заказу мы
+                            прикладываем подробную инструкцию по уходу. Если букет завянет раньше 5 дней, мы заменим его
+                            бесплатно.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Как работает программа лояльности?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>За каждый заказ вы получаете бонусы от 5% до 15% от суммы покупки. Бонусы можно использовать
+                            для оплаты до 50% следующего заказа. Чем больше покупок, тем выше процент кэшбэка.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Можно ли заказать доставку на определенное время?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Да, мы доставляем с точностью до часа. При оформлении заказа вы можете выбрать удобный
+                            интервал доставки. Работаем круглосуточно, поэтому можем доставить букет даже ночью.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Отзывы покупателей</h2>
+            <div class="reviews-container">
+                <div class="reviews-header">
+                    <div class="rating-summary">
+                        <div class="rating-number">5.0</div>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <div class="rating-count">1312 отзывов · 1569 оценок</div>
+                        <button class="btn btn-primary review-btn">Оставить отзыв</button>
+                    </div>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <img src="https://i.pravatar.cc/60?img=1" alt="Мария Ш." class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Мария Ш.</div>
+                                    <div class="review-date">4 сентября 2025</div>
+                                </div>
+                            </div>
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="review-text">Заказала впервые, чтобы поздравить подружку с д.р. И я и подружка очень
+                            довольны. Очевидные плюсы для меня - магазин отличается от всех остальных современным,
+                            лаконичным исполнением - букеты вроде простые с одной стороны, но этим и выигрывают за счет
+                            хорошей упаковки, стильного дизайна.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <img src="https://i.pravatar.cc/60?img=5" alt="Инна" class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Инна</div>
+                                    <div class="review-date">1 ноября 2025</div>
+                                </div>
+                            </div>
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="review-text">Заказываю цветы и букеты у Bloom Garden 🌹 c 2022 года. Сотрудники салона
+                            всегда дружелюбные, готовы предложить свежие цветы и сделать красивый букет. Профессионалы,
+                            знают своё дело. Клубника 🍓 в шоколаде свежая, вкусная, товарный вид шикарный.</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <img src="https://i.pravatar.cc/60?img=9" alt="Екатерина П." class="reviewer-avatar">
+                                <div>
+                                    <div class="reviewer-name">Екатерина П.</div>
+                                    <div class="review-date">15 декабря 2025</div>
+                                </div>
+                            </div>
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <p class="review-text">Очень довольна сервисом! Букет доставили точно в срок, цветы свежайшие,
+                            простояли больше недели. Флорист учел все мои пожелания. Обязательно буду заказывать еще!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Info Section - Combined Layout like Labberry -->
+    <section class="bottom-info-section">
+        <div class="container">
+            <div class="bottom-info-grid">
+                <div class="info-column">
+                    <h2>С НАМИ ВЫГОДНО</h2>
+                    <p class="info-description">Бонусная программа лояльности для всех покупателей!<br>Скидки и
+                        специальные условия для корпоративных клиентов</p>
+                    <div class="info-buttons">
+                        <a href="#" class="btn-pill">ПРОГРАММА ЛОЯЛЬНОСТИ</a>
+                        <a href="#" class="btn-pill">ДЛЯ ЮРЛИЦ</a>
+                    </div>
+                    <div class="info-image-placeholder" id="loyaltyImage"></div>
+                </div>
+                <div class="info-divider"></div>
+                <div class="info-column">
+                    <h2>НАШИ СОЦСЕТИ</h2>
+                    <p class="info-description">Подписывайтесь, чтобы узнавать о самых выгодных акциях и<br>предложениях
+                        первыми!</p>
+                    <div class="info-buttons">
+                        <a href="#" class="btn-pill">@BLOOMGARDEN</a>
+                        <a href="#" class="btn-pill">VK</a>
+                    </div>
+                    <div class="social-images-grid">
+                        <div class="social-image" id="socialImg1"></div>
+                        <div class="social-image" id="socialImg2"></div>
+                        <div class="social-image" id="socialImg3"></div>
+                        <div class="social-image" id="socialImg4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-nav-layout">
+                <!-- Left Navigation Menu -->
+                <nav class="footer-nav-menu">
+                    <div class="nav-menu-links">
+                        <a href="#" class="nav-menu-item">КАТАЛОГ</a>
+                        <span class="nav-separator">·</span>
+                        <a href="#" class="nav-menu-item">О НАС</a>
+                    </div>
+                    <div class="nav-menu-links">
+                        <a href="#" class="nav-menu-item">ДОСТАВКА</a>
+                        <span class="nav-separator">·</span>
+                        <a href="#" class="nav-menu-item">ПОМОЩЬ</a>
+                    </div>
+                    <a href="#" class="nav-menu-item-single">ПРОГРАММА ЛОЯЛЬНОСТИ</a>
+                    <a href="#" class="nav-menu-item-single">КОРПОРАТИВНЫМ КЛИЕНТАМ</a>
+                    <div class="nav-menu-links">
+                        <a href="#" class="nav-menu-item">НОВОСТИ</a>
+                        <span class="nav-separator">·</span>
+                        <a href="#" class="nav-menu-item">ПРАЗДНИКИ</a>
+                    </div>
+                    <a href="#" class="nav-menu-item-single">КОНТАКТЫ</a>
+                    <a href="#" class="nav-menu-item-single">СВАДЕБНАЯ КОПИЛКА</a>
+
+                    <!-- Social Icons -->
+                    <div class="footer-nav-socials">
+                        <a href="#" class="footer-social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M13.162 18.994c.609 0 .858-.406.851-.915-.031-1.917.714-2.949 2.059-1.604 1.488 1.488 1.796 2.519 3.603 2.519h3.2c.808 0 1.126-.26 1.126-.668 0-.863-1.421-2.386-2.625-3.504-1.686-1.565-1.765-1.602-.313-3.486 1.801-2.339 4.157-5.336 2.073-5.336h-3.981c-.772 0-.828.435-1.103 1.083-.995 2.347-2.886 5.387-3.604 4.922-.751-.485-.407-2.406-.35-5.261.015-.754.011-1.271-1.141-1.539-.629-.145-1.241-.205-1.809-.205-2.273 0-3.841.953-2.95 1.119 1.571.293 1.42 3.692 1.054 5.16-.638 2.556-3.036-2.024-4.035-4.305-.241-.548-.315-.974-1.175-.974h-3.255c-.492 0-.787.16-.787.516 0 .602 2.96 6.72 5.786 9.77 2.756 2.975 5.48 2.708 7.376 2.708z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none" />
+                                <text x="12" y="16" text-anchor="middle" font-size="12" font-weight="bold"
+                                    fill="currentColor">W</text>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.22 18.862-4.243-1.78 10.532-6.645-6.29 8.425zm.394-9.32 3.826 8.458 4.243-1.78-8.069-6.678z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="footer-rating">
+                        <span class="rating-badge">❤️ 5.0</span>
+                        <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                        <div class="rating-text">Яндекс: отзывы о Bloom Garden</div>
+                    </div>
+                </nav>
+
+                <!-- Right Content Area -->
+                <div class="footer-content-area">
+                    <div class="footer-image-circle"></div>
+                </div>
+            </div>
+
+
+            <!-- Premium Footer Bottom -->
+            <div class="footer-bottom-premium">
+                <div class="footer-brand-section">
+                    <div class="footer-brand-logo">
+                        <h2>láb berry</h2>
+                    </div>
+                    <div class="footer-social-premium">
+                        <a href="#" class="social-link" aria-label="VK">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M13.162 18.994c.609 0 .858-.406.851-.915-.031-1.917.714-2.949 2.059-1.604 1.488 1.488 1.796 2.519 3.603 2.519h3.2c.808 0 1.126-.26 1.126-.668 0-.863-1.421-2.386-2.625-3.504-1.686-1.565-1.765-1.602-.313-3.486 1.801-2.339 4.157-5.336 2.073-5.336h-3.981c-.772 0-.828.435-1.103 1.083-.995 2.347-2.886 5.387-3.604 4.922-.751-.485-.407-2.406-.35-5.261.015-.754.011-1.271-1.141-1.539-.629-.145-1.241-.205-1.809-.205-2.273 0-3.841.953-2.95 1.119 1.571.293 1.42 3.692 1.054 5.16-.638 2.556-3.036-2.024-4.035-4.305-.241-.548-.315-.974-1.175-.974h-3.255c-.492 0-.787.16-.787.516 0 .602 2.96 6.72 5.786 9.77 2.756 2.975 5.48 2.708 7.376 2.708z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none" />
+                                <text x="12" y="16" text-anchor="middle" font-size="12" font-weight="bold"
+                                    fill="currentColor">W</text>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.22 18.862-4.243-1.78 10.532-6.645-6.29 8.425zm.394-9.32 3.826 8.458 4.243-1.78-8.069-6.678z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="footer-rating-small">
+                        <span class="rating-icon">🧡 5.0</span>
+                        <div class="stars-small">⭐⭐⭐⭐⭐</div>
+                        <p class="rating-source">Яндекс: отзывы о Bloom Garden</p>
+                    </div>
+                </div>
+
+                <div class="footer-columns-premium">
+                    <div class="footer-column-group">
+                        <h4>Каталог</h4>
+                        <ul>
+                            <li><a href="#">Клубничные букеты</a></li>
+                            <li><a href="#">Клубничные боксы</a></li>
+                            <li><a href="#">Цветы</a></li>
+                            <li><a href="#">Комбо-наборы</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column-group">
+                        <h4>Сервис</h4>
+                        <ul>
+                            <li><a href="#">Доставка</a></li>
+                            <li><a href="#">Корпоративным клиентам</a></li>
+                            <li><a href="#">Часто задаваемые вопросы</a></li>
+                            <li><a href="#">Оплата</a></li>
+                            <li><a href="#">Возврат</a></li>
+                            <li><a href="#">Программа лояльности</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column-group">
+                        <h4>Компания</h4>
+                        <ul>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Видео</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Статьи</a></li>
+                            <li><a href="#">Праздники</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Legal Footer -->
+            <div class="footer-legal-bottom">
+                <div class="legal-left">
+                    <p>Bloom Garden ©2026. Все права защищены.</p>
+                    <div class="legal-links-inline">
+                        <a href="#">Политика конфиденциальности</a>
+                        <a href="#">Публичная оферта</a>
+                    </div>
+                </div>
+                <div class="payment-methods-inline">
+                    <span>Принимаем к оплате:</span>
+                    <span class="payment-icons">💳 🏦 💰</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Hamburger Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-overlay-content">
+            <button class="menu-close" id="menuClose">✕</button>
+            <nav class="overlay-nav">
+                <a href="#" class="overlay-nav-item">Каталог</a>
+                <a href="#" class="overlay-nav-item">О нас</a>
+                <a href="#" class="overlay-nav-item">Доставка</a>
+                <a href="#" class="overlay-nav-item">Помощь</a>
+                <a href="#" class="overlay-nav-item">Программа лояльности</a>
+                <a href="#" class="overlay-nav-item">Корпоративным клиентам</a>
+                <a href="#" class="overlay-nav-item">Новости</a>
+                <a href="#" class="overlay-nav-item">Праздники</a>
+                <a href="#" class="overlay-nav-item">Контакты</a>
+                <a href="#" class="overlay-nav-item">Свадебная копилка</a>
+            </nav>
+        </div>
+    </div>
