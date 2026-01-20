@@ -183,42 +183,53 @@
             <div class="hero-slider">
                 <div class="slider-track" id="heroSlider">
                     <div class="slide active">
-                        <div class="slide-content">
+                        <div class="slide-content" style="position: relative; z-index: 10;">
                             <h2 class="slide-title">Весенняя Коллекция</h2>
                             <p class="slide-description">Нежные тюльпаны и пионы для создания весеннего настроения.
                                 Свежесть и аромат весны в каждом букете.</p>
                             <a href="#" class="btn btn-primary">Выбрать букет</a>
                         </div>
                         <div class="slide-image-wrap"
-                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
-                            <img src="https://images.unsplash.com/photo-1562690868-60bbe7293e94?q=80&w=2000&auto=format&fit=crop"
-                                style="width: 100%; height: 100%; object-fit: cover;" alt="Hero Image 1">
+                            style="position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0;">
+                            <div class="slide-overlay"
+                                style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.4) 40%, transparent 70%); z-index: 1;">
+                            </div>
+                            <img src="https://cdn.pixabay.com/photo/2017/02/15/13/40/tulips-2068692_1280.jpg"
+                                style="width: 100%; height: 100%; object-fit: cover; z-index: 0;"
+                                alt="Весенняя Коллекция">
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="slide-content">
+                        <div class="slide-content" style="position: relative; z-index: 10;">
                             <h2 class="slide-title">Скидка 20% на розы</h2>
                             <p class="slide-description">Элегантные розы премиум-качества. Идеальный подарок для
                                 выражения чувств.</p>
                             <a href="#" class="btn btn-primary">Смотреть каталог</a>
                         </div>
                         <div class="slide-image-wrap"
-                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
-                            <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=2000&auto=format&fit=crop"
-                                style="width: 100%; height: 100%; object-fit: cover;" alt="Hero Image 2">
+                            style="position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0;">
+                            <div class="slide-overlay"
+                                style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.4) 40%, transparent 70%); z-index: 1;">
+                            </div>
+                            <img src="https://cdn.pixabay.com/photo/2014/11/21/08/13/rose-540281_1280.jpg"
+                                style="width: 100%; height: 100%; object-fit: cover; z-index: 0;" alt="Скидка на розы">
                         </div>
                     </div>
                     <div class="slide">
-                        <div class="slide-content">
+                        <div class="slide-content" style="position: relative; z-index: 10;">
                             <h2 class="slide-title">Доставка за 60 минут</h2>
                             <p class="slide-description">Быстрая доставка свежих цветов прямо к двери. Работаем
                                 круглосуточно для вашего удобства.</p>
                             <a href="#" class="btn btn-primary">Заказать сейчас</a>
                         </div>
                         <div class="slide-image-wrap"
-                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
-                            <img src="https://images.unsplash.com/photo-1519225495810-758416ca209c?q=80&w=2000&auto=format&fit=crop"
-                                style="width: 100%; height: 100%; object-fit: cover;" alt="Hero Image 3">
+                            style="position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0;">
+                            <div class="slide-overlay"
+                                style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.4) 40%, transparent 70%); z-index: 1;">
+                            </div>
+                            <img src="https://cdn.pixabay.com/photo/2020/05/25/20/14/peony-5220478_1280.jpg"
+                                style="width: 100%; height: 100%; object-fit: cover; z-index: 0;"
+                                alt="Быстрая доставка">
                         </div>
                     </div>
                 </div>
@@ -231,38 +242,58 @@
 
             <!-- Feature Tiles -->
             <div class="feature-tiles">
-                <a href="#" class="feature-tile" id="tile1" style="position: relative; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800&auto=format&fit=crop"
+                <a href="#" class="feature-tile" id="tile1"
+                    style="position: relative; overflow: hidden; display: block;">
+                    <div class="tile-overlay"
+                        style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.3) 50%, transparent 100%); z-index: 1;">
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2018/04/06/13/21/wedding-bouquet-3295294_1280.jpg"
                         style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;"
                         alt="Премиум букеты">
-                    <div class="tile-content" style="position: relative; z-index: 2;">
+                    <div class="tile-content"
+                        style="position: relative; z-index: 10; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
                         <h3>Премиум букеты</h3>
                         <p>Эксклюзивные композиции</p>
                     </div>
                 </a>
-                <a href="#" class="feature-tile" id="tile2" style="position: relative; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1494333102638-75e347477d33?q=80&w=800&auto=format&fit=crop"
+                <a href="#" class="feature-tile" id="tile2"
+                    style="position: relative; overflow: hidden; display: block;">
+                    <div class="tile-overlay"
+                        style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.3) 50%, transparent 100%); z-index: 1;">
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2017/08/06/22/01/flowers-2596478_1280.jpg"
                         style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;"
                         alt="Подарочные наборы">
-                    <div class="tile-content" style="position: relative; z-index: 2;">
+                    <div class="tile-content"
+                        style="position: relative; z-index: 10; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
                         <h3>Подарочные наборы</h3>
                         <p>Цветы + сладости</p>
                     </div>
                 </a>
-                <a href="#" class="feature-tile" id="tile3" style="position: relative; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1507290439931-a861b5a38200?q=80&w=800&auto=format&fit=crop"
+                <a href="#" class="feature-tile" id="tile3"
+                    style="position: relative; overflow: hidden; display: block;">
+                    <div class="tile-overlay"
+                        style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.3) 50%, transparent 100%); z-index: 1;">
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2015/04/10/00/41/hydrangea-715241_1280.jpg"
                         style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;"
                         alt="Программа лояльности">
-                    <div class="tile-content" style="position: relative; z-index: 2;">
+                    <div class="tile-content"
+                        style="position: relative; z-index: 10; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
                         <h3>Программа лояльности</h3>
                         <p>Кэшбек до 15%</p>
                     </div>
                 </a>
-                <a href="#" class="feature-tile" id="tile4" style="position: relative; overflow: hidden;">
-                    <img src="https://images.unsplash.com/photo-1487070183335-b882f05df7fd?q=80&w=800&auto=format&fit=crop"
+                <a href="#" class="feature-tile" id="tile4"
+                    style="position: relative; overflow: hidden; display: block;">
+                    <div class="tile-overlay"
+                        style="position: absolute; inset: 0; background: linear-gradient(0deg, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.3) 50%, transparent 100%); z-index: 1;">
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2016/09/01/18/48/flowers-1636515_1280.jpg"
                         style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:0;"
                         alt="Подписка на цветы">
-                    <div class="tile-content" style="position: relative; z-index: 2;">
+                    <div class="tile-content"
+                        style="position: relative; z-index: 10; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
                         <h3>Подписка на цветы</h3>
                         <p>Свежие букеты каждую неделю</p>
                     </div>
@@ -275,20 +306,20 @@
     <section class="promo-banners">
         <div class="container">
             <div class="promo-grid">
-                <div class="promo-banner promo-main" id="promoBanner1">
+                <div class="promo-banner promo-main" id="promoBanner1" style="background-image: url('https://cdn.pixabay.com/photo/2015/05/04/10/16/roses-753903_1280.jpg'); background-size: cover; background-position: center;">
                     <div class="promo-content">
                         <h2>Подарок при первом заказе</h2>
                         <p>Получите открытку ручной работы в подарок к вашему первому букету</p>
                         <a href="#" class="btn btn-secondary">Оформить заказ</a>
                     </div>
                 </div>
-                <div class="promo-banner promo-small" id="promoBanner2">
+                <div class="promo-banner promo-small" id="promoBanner2" style="background-image: url('https://cdn.pixabay.com/photo/2017/04/10/22/27/bouquet-2220481_1280.jpg'); background-size: cover; background-position: center;">
                     <div class="promo-content">
                         <h3>Доставка в день заказа</h3>
                         <a href="#" class="btn-link">Подробнее →</a>
                     </div>
                 </div>
-                <div class="promo-banner promo-small" id="promoBanner3">
+                <div class="promo-banner promo-small" id="promoBanner3" style="background-image: url('https://cdn.pixabay.com/photo/2018/08/21/23/29/bouquet-3622149_1280.jpg'); background-size: cover; background-position: center;">
                     <div class="promo-content">
                         <h3>Свежесть гарантирована</h3>
                         <a href="#" class="btn-link">Подробнее →</a>
@@ -304,7 +335,7 @@
         <div class="products-grid" id="popularProducts">
             <div class="product-card" data-category="popular">
                 <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=80&w=800&auto=format&fit=crop"
+                    <img src="https://cdn.pixabay.com/photo/2016/11/29/02/05/roses-1866745_1280.jpg"
                         alt="Букет Розовое Облако" loading="lazy">
                     <div class="product-badge">+274₽</div>
                 </div>
@@ -319,8 +350,8 @@
             </div>
             <div class="product-card" data-category="flowers">
                 <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1596438459194-f275f413d6ff?q=80&w=800&auto=format&fit=crop"
-                        alt="Белые Тюльпаны" loading="lazy">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/18/08/33/flowers-5059846_1280.jpg" alt="Белые Тюльпаны"
+                        loading="lazy">
                     <div class="product-badge">+200₽</div>
                 </div>
                 <div class="product-info">
@@ -333,7 +364,7 @@
             </div>
             <div class="product-card" data-category="popular">
                 <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1459156491755-9155551ae215?q=80&w=800&auto=format&fit=crop"
+                    <img src="https://cdn.pixabay.com/photo/2020/03/16/12/28/flowers-4937022_1280.jpg"
                         alt="Авторский Букет Элеганс" loading="lazy">
                     <div class="product-badge">+375₽</div>
                 </div>
@@ -348,7 +379,7 @@
             </div>
             <div class="product-card" data-category="popular">
                 <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1525310238806-e13d33290296?q=80&w=800&auto=format&fit=crop"
+                    <img src="https://cdn.pixabay.com/photo/2020/07/22/03/50/peonies-5427787_1280.jpg"
                         alt="Королевские Пионы" loading="lazy">
                     <div class="product-badge">+350₽</div>
                 </div>
@@ -543,7 +574,7 @@
                         <a href="#" class="btn-pill">ПРОГРАММА ЛОЯЛЬНОСТИ</a>
                         <a href="#" class="btn-pill">ДЛЯ ЮРЛИЦ</a>
                     </div>
-                    <div class="info-image-placeholder" id="loyaltyImage"></div>
+                    <div class="info-image-placeholder" id="loyaltyImage" style="background-image: url('https://cdn.pixabay.com/photo/2017/06/24/20/52/rose-2438810_1280.jpg'); background-size: cover; background-position: center;"></div>
                 </div>
                 <div class="info-divider"></div>
                 <div class="info-column">
@@ -555,10 +586,10 @@
                         <a href="#" class="btn-pill">VK</a>
                     </div>
                     <div class="social-images-grid">
-                        <div class="social-image" id="socialImg1"></div>
-                        <div class="social-image" id="socialImg2"></div>
-                        <div class="social-image" id="socialImg3"></div>
-                        <div class="social-image" id="socialImg4"></div>
+                        <div class="social-image" id="socialImg1" style="background-image: url('https://cdn.pixabay.com/photo/2018/05/03/21/56/dahlia-3372284_1280.jpg'); background-size: cover; background-position: center;"></div>
+                        <div class="social-image" id="socialImg2" style="background-image: url('https://cdn.pixabay.com/photo/2017/08/05/13/12/flower-2583380_1280.jpg'); background-size: cover; background-position: center;"></div>
+                        <div class="social-image" id="socialImg3" style="background-image: url('https://cdn.pixabay.com/photo/2017/02/08/12/30/roses-2048451_1280.jpg'); background-size: cover; background-position: center;"></div>
+                        <div class="social-image" id="socialImg4" style="background-image: url('https://cdn.pixabay.com/photo/2018/02/08/22/27/flower-3140492_1280.jpg'); background-size: cover; background-position: center;"></div>
                     </div>
                 </div>
             </div>
@@ -624,7 +655,7 @@
 
                 <!-- Right Content Area -->
                 <div class="footer-content-area">
-                    <div class="footer-image-circle"></div>
+                    <div class="footer-image-circle" style="background-image: url('https://cdn.pixabay.com/photo/2015/04/19/08/33/flower-729512_1280.jpg'); background-size: cover; background-position: center;"></div>
                 </div>
             </div>
 

@@ -129,7 +129,7 @@ const products = [
         oldPrice: 6200,
         badge: '+274₽',
         category: 'popular',
-        image: 'https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2016/11/29/02/05/roses-1866745_1280.jpg'
     },
     {
         id: 2,
@@ -138,7 +138,7 @@ const products = [
         oldPrice: null,
         badge: '+200₽',
         category: 'flowers',
-        image: 'https://images.unsplash.com/photo-1596438459194-f275f413d6ff?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2020/04/18/08/33/flowers-5059846_1280.jpg'
     },
     {
         id: 3,
@@ -147,7 +147,7 @@ const products = [
         oldPrice: 8500,
         badge: '+375₽',
         category: 'popular',
-        image: 'https://images.unsplash.com/photo-1459156491755-9155551ae215?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2020/03/16/12/28/flowers-4937022_1280.jpg'
     },
     {
         id: 4,
@@ -156,7 +156,7 @@ const products = [
         oldPrice: null,
         badge: '+350₽',
         category: 'popular',
-        image: 'https://images.unsplash.com/photo-1525310238806-e13d33290296?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2020/07/22/03/50/peonies-5427787_1280.jpg'
     },
     {
         id: 5,
@@ -165,7 +165,7 @@ const products = [
         oldPrice: 7900,
         badge: '+349₽',
         category: 'flowers',
-        image: 'https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2016/11/21/16/02/flowers-1846716_1280.jpg'
     },
     {
         id: 6,
@@ -174,7 +174,7 @@ const products = [
         oldPrice: null,
         badge: '+449₽',
         category: 'flowers',
-        image: 'https://images.unsplash.com/photo-1595168037326-f78a78370956?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2019/06/06/12/17/roses-4255467_1280.jpg'
     },
     {
         id: 7,
@@ -183,7 +183,7 @@ const products = [
         oldPrice: null,
         badge: '+180₽',
         category: 'flowers',
-        image: 'https://images.unsplash.com/photo-1533616688419-b7a585564566?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2017/08/06/22/01/flowers-2596478_1280.jpg'
     },
     {
         id: 8,
@@ -192,7 +192,7 @@ const products = [
         oldPrice: 7200,
         badge: '+300₽',
         category: 'bouquets',
-        image: 'https://images.unsplash.com/photo-1591886960571-74d43a9d4166?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2014/11/21/08/13/rose-540281_1280.jpg'
     },
     {
         id: 9,
@@ -201,7 +201,7 @@ const products = [
         oldPrice: null,
         badge: '+374₽',
         category: 'bouquets',
-        image: 'https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2018/04/06/13/21/wedding-bouquet-3295294_1280.jpg'
     },
     {
         id: 10,
@@ -210,7 +210,7 @@ const products = [
         oldPrice: 6200,
         badge: '+274₽',
         category: 'bouquets',
-        image: 'https://images.unsplash.com/photo-1595168037326-f78a78370956?q=80&w=800&auto=format&fit=crop'
+        image: 'https://cdn.pixabay.com/photo/2015/04/10/00/41/hydrangea-715241_1280.jpg'
     }
 ];
 
