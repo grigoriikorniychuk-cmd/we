@@ -189,7 +189,9 @@
                                 Свежесть и аромат весны в каждом букете.</p>
                             <a href="#" class="btn btn-primary">Выбрать букет</a>
                         </div>
-                        <div class="slide-image" id="heroSlide1"></div>
+                        <div class="slide-image" id="heroSlide1"
+                            style="background-image: url('https://images.unsplash.com/photo-1562690868-60bbe7293e94?q=80&w=2000&auto=format&fit=crop');">
+                        </div>
                     </div>
                     <div class="slide">
                         <div class="slide-content">
@@ -198,7 +200,9 @@
                                 выражения чувств.</p>
                             <a href="#" class="btn btn-primary">Смотреть каталог</a>
                         </div>
-                        <div class="slide-image" id="heroSlide2"></div>
+                        <div class="slide-image" id="heroSlide2"
+                            style="background-image: url('https://images.unsplash.com/photo-1561181286-d3fee7d55364?q=80&w=2000&auto=format&fit=crop');">
+                        </div>
                     </div>
                     <div class="slide">
                         <div class="slide-content">
@@ -207,7 +211,9 @@
                                 круглосуточно для вашего удобства.</p>
                             <a href="#" class="btn btn-primary">Заказать сейчас</a>
                         </div>
-                        <div class="slide-image" id="heroSlide3"></div>
+                        <div class="slide-image" id="heroSlide3"
+                            style="background-image: url('https://images.unsplash.com/photo-1519225495810-758416ca209c?q=80&w=2000&auto=format&fit=crop');">
+                        </div>
                     </div>
                 </div>
                 <div class="slider-controls">
@@ -219,25 +225,29 @@
 
             <!-- Feature Tiles -->
             <div class="feature-tiles">
-                <a href="#" class="feature-tile" id="tile1">
+                <a href="#" class="feature-tile" id="tile1"
+                    style="background-image: url('https://images.unsplash.com/photo-1526047932273-341f2a7631f9?q=80&w=800&auto=format&fit=crop');">
                     <div class="tile-content">
                         <h3>Премиум букеты</h3>
                         <p>Эксклюзивные композиции</p>
                     </div>
                 </a>
-                <a href="#" class="feature-tile" id="tile2">
+                <a href="#" class="feature-tile" id="tile2"
+                    style="background-image: url('https://images.unsplash.com/photo-1494333102638-75e347477d33?q=80&w=800&auto=format&fit=crop');">
                     <div class="tile-content">
                         <h3>Подарочные наборы</h3>
                         <p>Цветы + сладости</p>
                     </div>
                 </a>
-                <a href="#" class="feature-tile" id="tile3">
+                <a href="#" class="feature-tile" id="tile3"
+                    style="background-image: url('https://images.unsplash.com/photo-1507290439931-a861b5a38200?q=80&w=800&auto=format&fit=crop');">
                     <div class="tile-content">
                         <h3>Программа лояльности</h3>
                         <p>Кэшбек до 15%</p>
                     </div>
                 </a>
-                <a href="#" class="feature-tile" id="tile4">
+                <a href="#" class="feature-tile" id="tile4"
+                    style="background-image: url('https://images.unsplash.com/photo-1487070183335-b882f05df7fd?q=80&w=800&auto=format&fit=crop');">
                     <div class="tile-content">
                         <h3>Подписка на цветы</h3>
                         <p>Свежие букеты каждую неделю</p>
@@ -278,7 +288,64 @@
     <div class="container">
         <h2 class="section-title">Популярное</h2>
         <div class="products-grid" id="popularProducts">
-            <!-- Product cards will be generated here -->
+            <div class="product-card" data-category="popular">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?q=80&w=800&auto=format&fit=crop"
+                        alt="Букет Розовое Облако" loading="lazy">
+                    <div class="product-badge">+274₽</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Букет "Розовое Облако"</h3>
+                    <div class="product-price">
+                        <span class="price-current">5 490₽</span>
+                        <span class="price-old">6 200₽</span>
+                    </div>
+                    <button class="product-btn" onclick="addToCart(1)">В корзину</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="flowers">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1596438459194-f275f413d6ff?q=80&w=800&auto=format&fit=crop"
+                        alt="Белые Тюльпаны" loading="lazy">
+                    <div class="product-badge">+200₽</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Белые Тюльпаны (25 шт)</h3>
+                    <div class="product-price">
+                        <span class="price-current">3 990₽</span>
+                    </div>
+                    <button class="product-btn" onclick="addToCart(2)">В корзину</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="popular">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1459156491755-9155551ae215?q=80&w=800&auto=format&fit=crop"
+                        alt="Авторский Букет Элеганс" loading="lazy">
+                    <div class="product-badge">+375₽</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Авторский Букет "Элеганс"</h3>
+                    <div class="product-price">
+                        <span class="price-current">7 490₽</span>
+                        <span class="price-old">8 500₽</span>
+                    </div>
+                    <button class="product-btn" onclick="addToCart(3)">В корзину</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="popular">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1525310238806-e13d33290296?q=80&w=800&auto=format&fit=crop"
+                        alt="Королевские Пионы" loading="lazy">
+                    <div class="product-badge">+350₽</div>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Королевские Пионы</h3>
+                    <div class="product-price">
+                        <span class="price-current">6 990₽</span>
+                    </div>
+                    <button class="product-btn" onclick="addToCart(4)">В корзину</button>
+                </div>
+            </div>
         </div>
         <div class="section-footer">
             <button class="btn btn-outline">Показать еще</button>
@@ -638,19 +705,42 @@
 
     <!-- Hamburger Menu Overlay -->
     <div class="menu-overlay" id="menuOverlay">
+        <div class="menu-overlay-header">
+            <div class="menu-logo-premium">Bloom Garden</div>
+            <button class="menu-close" id="menuClose" aria-label="Закрыть меню">✕</button>
+        </div>
+        <div class="menu-overlay-tabs">
+            <div class="menu-tab active" data-tab="catalog">Каталог</div>
+            <div class="menu-tab" data-tab="info">Инфо</div>
+        </div>
         <div class="menu-overlay-content">
-            <button class="menu-close" id="menuClose">✕</button>
-            <nav class="overlay-nav">
-                <a href="#" class="overlay-nav-item">Каталог</a>
+            <nav class="overlay-nav active" id="catalogTab">
+                <a href="#" class="overlay-nav-item">Букеты</a>
+                <a href="#" class="overlay-nav-item">Розы</a>
+                <a href="#" class="overlay-nav-item">Премиум</a>
+                <a href="#" class="overlay-nav-item">Коллекции</a>
+                <a href="#" class="overlay-nav-item">Повод</a>
+                <a href="#" class="overlay-nav-item">Подарки</a>
+            </nav>
+            <nav class="overlay-nav" id="infoTab" style="display:none">
                 <a href="#" class="overlay-nav-item">О нас</a>
                 <a href="#" class="overlay-nav-item">Доставка</a>
                 <a href="#" class="overlay-nav-item">Помощь</a>
                 <a href="#" class="overlay-nav-item">Программа лояльности</a>
                 <a href="#" class="overlay-nav-item">Корпоративным клиентам</a>
-                <a href="#" class="overlay-nav-item">Новости</a>
-                <a href="#" class="overlay-nav-item">Праздники</a>
                 <a href="#" class="overlay-nav-item">Контакты</a>
-                <a href="#" class="overlay-nav-item">Свадебная копилка</a>
             </nav>
         </div>
+        <div class="menu-overlay-footer">
+            <a href="tel:+74951234567" class="menu-phone-primary">+7 (495) 123-45-67</a>
+            <div class="menu-social-links">
+                <a href="#" class="social-icon">TG</a>
+                <a href="#" class="social-icon">WA</a>
+                <a href="#" class="social-icon">VK</a>
+            </div>
+        </div>
     </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
